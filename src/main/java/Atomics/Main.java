@@ -1,4 +1,4 @@
-package NotificationSchedulingService;
+package Atomics;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
