@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//Версия с List не оптимальная
 class IntContainsInt {
     public static int[] intersection(int[] nums1, int[] nums2) {
         List<Integer> numList1 = Arrays.stream(nums1)
