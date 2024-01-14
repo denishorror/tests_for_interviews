@@ -25,7 +25,9 @@ class IntContainsInt2 {
         int[] nums1 = {4, 9, 5, 9};
         int[] nums2 = {9, 4, 9, 8, 4};
         int[] intersection = intersection(nums1, nums2);
-        System.out.println(Arrays.stream(intersection).boxed().collect(Collectors.toList()));
+        System.out.println(Arrays.stream(intersection)
+                .boxed()
+                .collect(Collectors.toList()));
     }
 }
 
