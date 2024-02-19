@@ -5,9 +5,9 @@ import java.util.List;
 
 public class KillDouble {
     public static void main(String[] args) {
-//        String input = "Р—Р·РґСЂСЂСЂСЂР°Р°РІСЃС‚РІРІРІСѓСѓР№,    РЎСЃСЃСЃР±РµРµРµСЂСЂСЂСЂ!";
-        String input = "Zzzdraaavstvuyyy,  Sssberrr!";
-        String expected = "Р—РґСЂР°РІСЃС‚РІСѓР№, РЎР±РµСЂ!";
+        String input = "Зздрррраавствввууй,    Ссссбееерррр!";
+//        String input = "Zzzdraaavstvuyyy,  Sssberrr!";
+        String expected = "Здравствуй, Сбер!";
 
         String s = killDoubles(input);
         System.out.println(s);
