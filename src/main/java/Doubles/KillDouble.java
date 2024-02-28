@@ -1,4 +1,4 @@
-package killDouble;
+package Doubles;
 
 import java.util.ArrayList;
 import java.util.List;
